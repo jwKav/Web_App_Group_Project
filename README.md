@@ -1,4 +1,4 @@
-# Restaurant Project
+# _Restaurant Project_
 Full stack development of web app to book restaurant reservations.
 
 ## Tools used
