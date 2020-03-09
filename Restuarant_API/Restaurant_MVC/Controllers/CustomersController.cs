@@ -57,9 +57,12 @@ namespace Restaurant_MVC.Controllers
         {
             if (ModelState.IsValid)
             {
+                
                 _context.Add(customer);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                //return RedirectToAction(nameof(Index));
+                return RedirectToAction("IndexAvailable","Tables");
+
             }
             return View(customer);
         }
