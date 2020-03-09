@@ -21,6 +21,11 @@ namespace Restaurant_MVC.Controllers
         // GET: Tables
         public async Task<IActionResult> Index()
         {
+            var restaurantDbContext = _context.Tables.Include(t => t.TableCategory);
+            return View(await restaurantDbContext.ToListAsync());
+        }
+        public async Task<IActionResult> IndexAvailable()
+        {
             var restaurantDbContext = _context.Tables.Include(t => t.TableCategory).Where(t => t.IsBooked == false);
             return View(await restaurantDbContext.ToListAsync());
         }
