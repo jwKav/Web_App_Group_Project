@@ -28,7 +28,7 @@ namespace Restaurant_API
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<RestaurantDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("RestaurantDb")));
-
+            
             services.AddControllers();
         }
 
@@ -39,6 +39,7 @@ namespace Restaurant_API
             {
                 app.UseDeveloperExceptionPage();
             }
+           
 
             app.UseHttpsRedirection();
 

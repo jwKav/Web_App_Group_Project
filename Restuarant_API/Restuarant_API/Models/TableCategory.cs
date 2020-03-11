@@ -10,5 +10,6 @@ namespace Restaurant_API.Models
         public int TableCategoryId { get; set; }
         public int TableCapacity { get; set; }
         public virtual ICollection<Table> Tables { get; set; }
+            = new List<Table>();
     }
 }

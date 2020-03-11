@@ -10,7 +10,6 @@ namespace Restaurant_API.Models
     {
         public RestaurantDbContext()
         {
-
         }
 
         public RestaurantDbContext(DbContextOptions<RestaurantDbContext> options) 
