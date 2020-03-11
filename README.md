@@ -13,7 +13,7 @@ Full stack development of web app to book restaurant reservations.
 - Used the 'Projects' tab to help us create a backlog, and organise tasks into the form of user stories. Also using github as a form of version control
 
 ## How we are working
-We are working in an agile way, using the Scrum methodology working in sprints. Sprint 0 was our planning stage, and we have laid out our requirements and we have worked out which direction we want to head down in regards to our group project. Sprint 1 is our working MVC which have auto generated controllers to produce an MVP which can perform the CRUD operations. 
+We are working in an agile way, using the Scrum methodology working in sprints. Sprint 0 is our current planning phase, which is in progress and almost complete. Once we have completed our planning phase, we will check with our client whether this is okay and if so, we will start our first sprint.
 
 ## Getting Started
 When starting this project, we started off with making user stories to match our backlog, to help us organise the sprints we set ourselves. We made the user stories in a way that would enable anyone reading it to understand what functions the web app will be able to carry out, while also making it clear to us what we want to achieve. We can also use these user stories to make tests towards the end of project to ensure everything is working as it should be.
